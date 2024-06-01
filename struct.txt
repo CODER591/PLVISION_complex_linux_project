@@ -1,0 +1,23 @@
+── task1
+│   ├── Makefile.am
+│   └── src
+│       ├── main.cpp
+│       ├── Makefile.am
+│       ├── factorial_sqrt
+│       │   ├── Makefile.am
+│       │   ├── factorial_sqrt.cpp
+│       │   └── factorial_sqrt.h
+│       ├── multiply_divide
+│       │   ├── Makefile.am
+│       │   ├── multiply_divide.cpp
+│       │   └── multiply_divide.h
+│       └── sum_substract
+│           ├── Makefile.am
+│           ├── sum_substract.cpp
+│           └── sum_substract.h
+├── task2
+│   └── setup_project_build.sh
+└── task3
+    ├── Makefile.am
+    └── setup_project_build.sh
+├── configure.ac
