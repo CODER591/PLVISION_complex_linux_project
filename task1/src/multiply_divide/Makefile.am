@@ -1,3 +1,2 @@
 noinst_LIBRARIES = libmultiply_divide.a
-libmultiply_divide_a_SOURCES = multiply_divide.cpp
-libmultiply_divide_a_HEADERS = multiply_divide.h
+libmultiply_divide_a_SOURCES = multiply_divide.cpp multiply_divide.h

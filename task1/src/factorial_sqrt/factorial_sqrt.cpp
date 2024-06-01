@@ -1,11 +1,11 @@
 #include "factorial_sqrt.h"
 #include <cmath>
 
-int factorial(int n) {
+int Factorial(int n) {
     if (n <= 1) return 1;
-    else return n * factorial(n - 1);
+    else return n * Factorial(n - 1);
 }
 
-double sqrt(double x) {
+double Sqrt(double x) {
     return std::sqrt(x);
 }

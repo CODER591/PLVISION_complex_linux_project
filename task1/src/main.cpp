@@ -6,8 +6,8 @@
 int main() {
     int a = 6, b = 3;
 
-    std::cout << "Factorial of " << a << " is " << factorial(a) << std::endl;
-    std::cout << "Square root of " << a << " is " << sqrt(a) << std::endl;
+    std::cout << "Factorial of " << a << " is " << Factorial(a) << std::endl;
+    std::cout << "Square root of " << a << " is " << Sqrt(a) << std::endl;
     std::cout << a << " multiplied by " << b << " is " << multiply(a, b) << std::endl;
     std::cout << a << " divided by " << b << " is " << divide(a, b) << std::endl;
     std::cout << a << " plus " << b << " is " << sum(a, b) << std::endl;
