@@ -2,7 +2,6 @@ SUBDIRS = upper_lower
 
 bin_PROGRAMS = main
 main_SOURCES = main.cpp
-main_LDFLAGS = -all-static
 
 main_LDADD = \
     upper_lower/libupper_lower.la

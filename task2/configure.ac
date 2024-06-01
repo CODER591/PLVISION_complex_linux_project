@@ -1,5 +1,6 @@
 AC_INIT([Task2SubPart], [1.0], [mazorchyk@gmail.com])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
+AM_CONDITIONAL([LINUX], [test $(uname) -eq "Linux"])
 AC_PROG_RANLIB
 AC_PROG_CXX
 AM_PROG_AR
