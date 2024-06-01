@@ -3,7 +3,7 @@
 
 #include <stdexcept>
 
-int multiply(int a, int b);
-int divide(int a, int b);
+int Multiply(int a, int b);
+int Divide(int a, int b);
 
 #endif // MULTIPLY_DIVIDE_H
